@@ -1,0 +1,73 @@
+@import url(//db.onlinewebfonts.com/c/28ab2388a285602c8dd4e82081ecac27?family=Miso);
+@import url(//db.onlinewebfonts.com/c/d708848509e926f56e21e6a2595c23ef?family=Miso);
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+
+.flex-box {
+  margin: auto;
+  width: 1200px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fdbd31;
+}
+
+.bronze-card,
+.silver-card {
+  width: 360px;
+  height: 440px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.cup {
+  align-self: center;
+  margin-top: 10px;
+}
+
+.gold-card {
+  width: 360px;
+  height: 500px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h2 {
+  font-family: Miso;
+  font-weight: bold;
+  font-size: 70px;
+  color: #02995b;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 25px;
+  font-family: Miso;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 24px;
+  color: #333333;
+  text-align: center;
+}
+
+.description {
+  font-family: Miso;
+  font-size: 25px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.bronze-card h2, .silver-card h2 {
+  margin-top: 40px;
+}
